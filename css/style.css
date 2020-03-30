@@ -1,0 +1,362 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+
+/* header styles */
+header{
+    background: #35444a;
+    padding-top:30px;
+    min-height:70px;
+    color: #ffffff;
+    border-bottom: 3px solid #0000ff;
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+
+div#main-header {
+   float: left;
+}
+
+header h1 {
+    display: inline;
+    padding-left: 15px;
+}
+
+
+header li {
+    list-style: none;
+    display: inline;
+    color: #ffffff;
+    padding-left: 15px;
+    padding-right: 25px;
+}
+
+header a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header a:hover{
+    color: #0000ff;
+}
+
+nav {
+    float: right;
+    padding-top: 10px;
+}
+/* End of header styles */
+
+
+/* Pitch Screen */
+section#pitch {
+    background: url("../images/pitch.jpg");
+    color: #ffffff;
+    /* min-height: 400px; */
+    text-align: center;
+}
+
+#pitch p {
+    font-size: 30px;
+}
+
+#pitch h1 {
+    font-size: 60px;
+}
+
+/* End of pitch style  */
+
+/* NewsLetter styles */
+section#newsletter {
+    background-color: #35444a;
+    color: #ffffff;
+    min-height:70px;
+}
+
+
+#newsletter h1 {
+    float: left;
+    padding-left: 15px;
+}
+
+#btnSubscribe {
+    background-color: #0000ff;
+    color: #ffffff;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+    padding-right: 25px;
+}
+
+#newsletter input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+/* End of newsLetter style */
+
+/* images */
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+/* 3 images style */
+.col {
+    float: left;
+    width: 30%;
+    padding-left: 41px;
+    text-align: center;
+    margin-bottom: 40px
+}
+
+#row {
+    margin-top: 20px;
+    
+}
+/* 3 images style */
+
+
+/* foooter */
+
+footer {
+   background-color: #0000ff;
+   min-height: 70px;
+   color: white;
+   text-align: center;
+   position: relative;
+   width: 100%;
+   left: 0;
+   overflow: hidden;
+   padding-top: 20px;
+}  
+
+/* End of footer style */
+
+
+/* About Us styles */
+#aboutUsMain {
+    background-image: url(..//images/rsz_twomontiers.jpg);
+    height: auto;
+    width: auto;
+    color:#ffffff;
+    font-size: 60px;
+    text-align: center;
+    opacity: 1;
+}
+
+#aboutUsMain {
+    padding: 10px;
+}
+
+.grey {
+    background: #35444a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+/* End of about us style */
+
+/* Services style */
+.servicesBackground {
+    background: #e6e6e6;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    width: 500px;
+}
+
+section#services {
+    padding-left: 25%;
+    text-align: center;
+}
+
+/* End of Services style */
+
+
+/* Contact Style */
+
+#contractSidebar form{
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    color: #ffffff;
+}
+
+
+#contractUS {
+    background: #35444a;
+    margin-left: 45%;
+    width: 300px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#contractUSInfo h3{
+    font-size: 60px;
+}
+
+#contractUSInfo {
+    background: #e6e6e6;
+    width: 500px;
+    float: right;
+    margin-bottom: 200%;
+}
+
+#contractVincent {
+    text-align: center;
+    background-color: #e6e6e6;
+    width: 500px;
+    margin-left: 30%;
+
+}
+
+
+#contractImage {
+    float: right;
+}
+
+
+#contractImage img {
+    width:  400px;
+    height: 400px;
+    position: relative;
+    margin-left: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.imageFormAlign {
+   float: left;
+   width: 40%;
+   padding-left: 41px;
+}
+
+
+@media (max-width: 768px) {
+    
+    /* index.html */
+    header #main-header, header nav, header nav li {
+        float:none;
+        text-align: center;
+        width: 100%;
+    } 
+
+    .col  {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .col img, p, h3 {
+        margin-right: 15%;
+    }
+
+    header {
+        padding-bottom: 20px;
+    }
+
+    /* End of the index.html */
+
+    /* newsletter  */
+    #newsletter h1 {
+        margin-left: 15%;
+    }
+
+    #newsletterForms {
+        margin-right: 25%;
+        padding-bottom: 10px;
+        margin-left: 25%;
+    } 
+
+    #newsletterForm input {
+        margin-bottom: 10px;
+        margin-left: 55%;
+    }
+
+    #btnSubscribe {
+        width: 100%;
+        margin-left: 15%;
+        margin-top: 10px;
+    }
+
+    #emailNews {
+        margin-left: 15%;
+    }
+    /* End of newsletter  */
+
+    #aboutUsMain p {
+        text-align: center;
+        padding-left: 10%;
+        font-size: 30px;
+    }
+
+    #aboutVincent {
+        text-align: center;
+    }
+
+    /* Services */
+
+    #servicesId{
+        margin-right: 100%;
+    }
+
+    .servicesBackground h3, p {
+        text-align: center;
+    }
+
+    /* End of Services */
+
+
+    /* Contract */
+    #contractVincent {
+        margin-left: 0;
+    }
+
+    #contractVincent h3, p{
+        text-align: center;
+    }
+
+    #contractImage{
+        width: 100%;
+    }
+
+
+    .imageFormAlign {
+        margin-left: 0;
+    }
+
+    #contractSidebar {
+        margin-right: 10%;
+    }
+
+    #contractUS {
+        margin-left: 0;
+    }
+
+    #contractSidebar {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+}
